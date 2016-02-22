@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Proyecto Nuevo MVC con php</title>
+        <title>Proyecto Nuevo HMVC con php</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
         <link href="Public/css/estilos.css" rel="stylesheet" type="text/css" />                
     </head>
