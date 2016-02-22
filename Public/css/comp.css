@@ -55,7 +55,7 @@ input[type="date"], input[type="number"] {
     font-weight: bold;
     font-size: 14px;
 }
-textarea{
+textarea {
     border: 2px solid #243D59;
     width: 300px;
     height: 150px;

@@ -14,7 +14,7 @@ abstract class Controller
     public function redirect($file = array(), $dates = array()) {
         try {
             $ns = explode('\\', get_called_class());
-            $path = $this->createFile(APPLICATION_PATH . DS . "View" . DS . str_replace("Controller", "", $ns[1]) . DS . $file[0], $dates);
+            $path = $this->createFile(APPLICATION_PATH . DS . $ns[0] . DS . $ns[1] . DS . "View" . DS . str_replace("Controller", "", $ns[3]) . DS . $file[0], $dates);
             echo $this->createFile(APPLICATION_PATH . DS . 'Public' . DS . 'layout.php', array('content' => $path));
         } 
         catch (Exception $ex) {

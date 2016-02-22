@@ -1,5 +1,5 @@
 <?php
-namespace Model;
+namespace Src\BackendBundle\Model;
 use \App\Model;
 abstract class AppModel extends Model {
     function __construct() {
